@@ -1,7 +1,25 @@
 aid: logseq
 name: Logseq
-description: Logseq is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Logseq is a privacy-first, open-source platform for knowledge management and
+  collaboration, built around a local-first outliner that stores notes as plain
+  Markdown and Org-mode files linked into a personal knowledge graph. Its
+  developer surface is a JavaScript/TypeScript plugin SDK (@logseq/libs) plus an
+  in-app HTTP APIs server that exposes the same Editor and App proxy methods to
+  local automation; there is no hosted public REST API. The project is developed
+  in Clojure/ClojureScript, licensed AGPL-3.0, and backed by a16z.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/63385289?v=4
 url: https://raw.githubusercontent.com/api-evangelist/logseq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Knowledge Management
+- Note Taking
+- Productivity
+- Open Source
+- Plugins
+- SDK
+- Knowledge Graph
+- Markdown
+- Local-First
+- Developer Tools
 apis: []
+common:
+- type: Website
+  url: https://logseq.com
+- type: DeveloperPortal
+  url: https://plugins-doc.logseq.com
+- type: Documentation
+  url: https://docs.logseq.com
+- type: APIReference
+  url: https://plugins-doc.logseq.com
+- type: GettingStarted
+  url: https://logseq.github.io/plugins/
+- type: Blog
+  url: https://blog.logseq.com
+- type: GitHubOrganization
+  url: https://github.com/logseq
+- type: Roadmap
+  url: https://logseq.io/p/NX4mc_ggEV
+- type: Support
+  url: https://discuss.logseq.com
+- type: PrivacyPolicy
+  url: https://blog.logseq.com/privacy-policy
+- type: Packages
+  url: packages/logseq-packages.yml
+- type: SDKs
+  url: packages/logseq-packages.yml
+- type: ChangeLog
+  url: changelog/logseq-changelog.yml
+- type: LLMsTxt
+  url: llms/logseq-llms.txt
+- type: DomainSecurity
+  url: security/logseq-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

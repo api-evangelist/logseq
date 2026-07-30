@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org/
+notes: >-
+  Logseq is a local-first desktop/mobile application; its programmatic surface is
+  a JavaScript/TypeScript plugin SDK, not a hosted REST API. @logseq/libs is the
+  official plugin SDK (published under the @logseq npm scope). The third-party
+  npm package "logseq" (logseq-tools/logseq) is unrelated to the vendor and is
+  marked official: false.
+packages:
+- language: javascript
+  registry: npm
+  name: "@logseq/libs"
+  url: https://www.npmjs.com/package/@logseq/libs
+  install: npm install @logseq/libs
+  version: 0.0.17
+  description: Logseq SDK libraries (official plugin API surface)
+  official: true
+- language: javascript
+  registry: npm
+  name: "@logseq/diff-merge"
+  url: https://www.npmjs.com/package/@logseq/diff-merge
+  install: npm install @logseq/diff-merge
+  description: Block-level diff and merge for Logseq
+  official: true
+- language: clojurescript
+  registry: npm
+  name: "@logseq/nbb-logseq"
+  url: https://www.npmjs.com/package/@logseq/nbb-logseq
+  install: npm install @logseq/nbb-logseq
+  description: nbb with additional libraries (datascript) included, used by Logseq
+  official: true
+- language: javascript
+  registry: npm
+  name: logseq
+  url: https://www.npmjs.com/package/logseq
+  install: npm install logseq
+  description: Third-party (logseq-tools/logseq), NOT the vendor package
+  official: false

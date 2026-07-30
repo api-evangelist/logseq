@@ -1,0 +1,27 @@
+# Logseq
+
+> Logseq is a privacy-first, open-source platform for knowledge management and collaboration. It is a local-first outliner that stores notes as plain Markdown and Org-mode files linked into a personal knowledge graph. Its developer surface is a JavaScript/TypeScript plugin SDK (@logseq/libs) plus an in-app HTTP APIs server exposing Editor and App proxy methods to local automation. There is no hosted public REST API. Developed in Clojure/ClojureScript, licensed AGPL-3.0, and backed by a16z.
+
+## Developer
+
+- [Plugin API Reference](https://plugins-doc.logseq.com): TypeDoc reference for the @logseq/libs plugin SDK
+- [Plugin Getting Started](https://logseq.github.io/plugins/): Getting started building Logseq plugins with @logseq/libs
+- [Documentation](https://docs.logseq.com): Product documentation, including the in-app HTTP APIs server
+- [GitHub Organization](https://github.com/logseq): 72 public repositories, main app at logseq/logseq (AGPL-3.0)
+
+## Packages
+
+- [@logseq/libs (npm)](https://www.npmjs.com/package/@logseq/libs): Official plugin SDK libraries
+- [@logseq/diff-merge (npm)](https://www.npmjs.com/package/@logseq/diff-merge): Block-level diff and merge for Logseq
+- [@logseq/nbb-logseq (npm)](https://www.npmjs.com/package/@logseq/nbb-logseq): nbb with datascript for Logseq scripting
+
+## Community
+
+- [Discuss Forum](https://discuss.logseq.com): Official community support forum
+- [Blog](https://blog.logseq.com): Product announcements and release notes
+- [Roadmap](https://logseq.io/p/NX4mc_ggEV): Public product roadmap
+- [Releases / Changelog](https://github.com/logseq/logseq/releases): Dated desktop and Android release notes
+
+## Legal
+
+- [Privacy Policy](https://blog.logseq.com/privacy-policy)

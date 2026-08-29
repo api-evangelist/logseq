@@ -8,6 +8,17 @@ description: >-
   in-app HTTP APIs server that exposes the same Editor and App proxy methods to
   local automation; there is no hosted public REST API. The project is developed
   in Clojure/ClojureScript, licensed AGPL-3.0, and backed by a16z.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

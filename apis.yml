@@ -43,10 +43,10 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Knowledge-Management
+- Knowledge Management
 - Note Taking
 - Productivity
-- Open-Source
+- Open Source
 - Plugins
 - SDK
 - Knowledge Graph
@@ -65,6 +65,8 @@ tags_raw:
 - Markdown
 - Local-First
 - Developer Tools
+- Knowledge-Management
+- Open-Source
 apis: []
 common:
 - type: Website
